@@ -7,10 +7,10 @@ Our [NAICS Imputation using ML](/machine-learning) can be updated to estimate bl
 
 ## Table of Contents
 
-- [Community Zipcodes Repository](#community-zipcodes-repository)
+- [About Zip Data](#about-zip-data)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
-  - [Data Storage & Structure](#data-storage--structure)
+  - [Data Storage \& Structure](#data-storage--structure)
     - [Database Structure](#database-structure)
       - [Table: DimYear](#table-dimyear)
       - [Table: DimNaics](#table-dimnaics)
@@ -84,7 +84,7 @@ Developers interested in modifying the data pipeline should fork the repository 
 
 - **Exporter Scripts** (`industries/naics/duck_zipcode_db/exporter`): These scripts manage the export of data to CSV format.
 
-**Deprecated Files**: Any deprecated files have been moved to a `deprecated` subfolder within their original location. If you need to use these files, ensure to reference them from the new location and update any relevant code accordingly.
+**Deprecated Files**: Any deprecated files have been moved to a `deprecated` folder in the repo. If you need to use these files, ensure to create a new branch and move them back to the original location for testing or other purpose.
 
 For detailed information on the configuration of the *data management workflow* (GitHub Actions), please refer to the [Data Management Workflow README](.github/README.md).
 
