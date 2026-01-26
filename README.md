@@ -1,9 +1,13 @@
 # About Zip Data
 
-Our repository provides [zipcode-related economic data](https://github.com/ModelEarth/community-zipcodes/tree/main/industries/naics/US/zip), automatically updated via [GitHub Actions workflows](https://github.com/ModelEarth/community-zipcodes/blob/main/.github/workflows.md). The data is sourced from the U.S. Census API, processed, and stored in a DuckDB database, and exported to [CSV files](https://github.com/ModelEarth/community-zipcodes/tree/main/industries/naics/US/zip) for easy access. Developers can also explore the code to customize the data processing pipeline and also use our NAICS .csv files prepared for [the entire US, individual states and counties](/data-pipeline/industries/naics/).
+We include zip code file generation in our [industry data-pipeline](../data-pipeline/industries/) - use that instead of the following.
+
+**community-zipcodes repo is being replaced by data-pipeline and community-data...**
+
+This repository pulls [zipcode-related economic data](https://github.com/ModelEarth/community-zipcodes/tree/main/industries/naics/US/zip) into .csv files. With adjustments, it can automatically update via [GitHub Actions workflows](https://github.com/ModelEarth/community-zipcodes/blob/main/.github/workflows.md). The data is sourced from the U.S. Census API, processed, and stored in a DuckDB database, and exported to [CSV files](https://github.com/ModelEarth/community-zipcodes/tree/main/industries/naics/US/zip) for easy access. Developers can also explore the code to customize the data processing pipeline and also use our NAICS .csv files prepared for [the entire US, individual states and counties](/data-pipeline/industries/naics/).
 
 At the zipcode level, employees and payroll are often omitted by the census to protect privacy.  
-Our [NAICS Imputation using ML](/machine-learning) can be updated to estimate blank values.
+Our [NAICS Imputation using ML](/machine-learning) could be updated to estimate blank values.
 
 ## Table of Contents
 
@@ -78,7 +82,11 @@ Users can directly access the CSV files or the DuckDB database files to retrieve
 
 ## For Developers
 
-Developers interested in modifying the data pipeline should fork the repository and work on their own branch. The main scripts involved in data processing are located in the `industries/naics/duck_zipcode_db/` directory:
+The [data-pipeline/industries](../data-pipeline/industries) folder is our active dev area. Focus there.
+
+In this community-zipcodes repo, the main scripts involved in data processing are located in the `industries/naics/duck_zipcode_db/` directory:
+
+TO DO: Change "Zipcode" to "Zip", change "NaicsCode" to "Naics"
 
 - **Populator Scripts** (`industries/naics/duck_zipcode_db/populator`): These scripts are responsible for populating the DuckDB database with ZIP code data.
 

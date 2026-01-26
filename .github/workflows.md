@@ -5,7 +5,7 @@ This workflow is designed to manage and maintain data updates in the repository 
 ## Workflow Triggers
 
 The Data Management Workflow is triggered by two events:
-- **Scheduled Runs:** This workflow runs automatically at midnight on the 1st of every month (UTC).
+- **Scheduled Runs:** This workflow is intended to run automatically at midnight on the 1st of every month (UTC) - but it doesn't.
 - **Manual Trigger:** The workflow can also be manually triggered using the GitHub UI.
 
 ## Workflow Jobs
