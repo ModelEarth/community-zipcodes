@@ -26,7 +26,7 @@ Folders are nested 3/0/3/1/8 to avoid GitHub's files-per-folder limit.
 The results will be used in our [Industry Comparison location filters](https://model.earth/localsite/info/#geoview=state&state=NY), similar to countries, states and counties.
 
 The old zip code files reside here:  
-[community-data/us/zipcodes/naics](https://github.com/ModelEarth/community-data/tree/master/us/zipcodes/naics/) - [30318](https://github.com/ModelEarth/community-data/blob/master/us/zipcodes/naics/3/0/3/1/8/zipcode30318-census-naics6-2018.csv)
+[data-pipeline-garage/community-data/us/zipcodes/naics](https://github.com/ModelEarth/community-data/tree/master/us/zipcodes/naics/) - [30318](https://github.com/ModelEarth/community-data/blob/master/us/zipcodes/naics/3/0/3/1/8/zipcode30318-census-naics6-2018.csv)
 
 The new zip code files will reside at:  
 [community-data/industries/naics/US/zip](https://github.com/ModelEarth/community-data/tree/master/industries/naics/US/)
@@ -85,7 +85,7 @@ TO DO: This process needs to be run annually via a Github Action. We could avoid
 Starting with 2019, [ZIP Codes Business Patterns (ZBP)](https://www.census.gov/data/developers/data-sets/cbp-zbp/zbp-api.html) are available in the  
 County Business Patterns (CBP) API that use for state and county naics processing.
 
-Old page to revise: [Processing zips codes prior to 2019](https://model.earth/community-data/process/naics/)
+Old page to revise: [Processing zips codes prior to 2019](https://model.earth/data-pipeline-garage/community-data/process/naics/)
 
 #### Note from David
 
